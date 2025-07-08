@@ -1,0 +1,167 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    /* Banner */
+    .banner {
+      background: linear-gradient(135deg, #4a90e2, #357ABD);
+      color: white;
+      padding: 40px 20px;
+      border-radius: 8px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .banner-content {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .logo img {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+
+    .banner h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+    }
+
+    .banner p {
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .banner button {
+      background-color: #ff6b00;
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .banner button:hover {
+      background-color: #e05e00;
+    }
+
+    /* Main */
+    main {
+      max-width: 900px;
+      margin: 0 auto 40px auto;
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+    }
+
+    #course-content h2,
+    #professional-challenges h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #222;
+    }
+
+    #course-content p {
+      font-size: 1.1rem;
+      margin-bottom: 25px;
+    }
+
+    .modules-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .module {
+      background-color: #e7f1ff;
+      padding: 15px 20px;
+      border-radius: 6px;
+      font-size: 1.1rem;
+    }
+
+    .module span {
+      font-weight: bold;
+      color: #357ABD;
+      margin-right: 8px;
+    }
+
+    #transform-world {
+      background-color: #357ABD;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+      font-size: 1.3rem;
+      margin: 30px 0;
+      border-radius: 6px;
+      letter-spacing: 2px;
+    }
+
+    #professional-challenges img {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+
+    #professional-challenges p {
+      font-size: 1.1rem;
+      color: #444;
+      margin-top: 15px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      border-top: 1px solid #ddd;
+      color: #666;
+      font-size: 1rem;
+    }
+
+    footer .dio-logo {
+      width: 120px;
+      margin-bottom: 15px;
+    }
+
+    footer a {
+      color: #357ABD;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsividade simples */
+    @media (max-width: 600px) {
+      .banner h1 {
+        font-size: 2rem;
+      }
+      .banner p {
+        font-size: 1rem;
+      }
+      main {
+        padding: 20px;
+      }
+      .modules-list {
+        gap: 8px;
+      }
+    }
